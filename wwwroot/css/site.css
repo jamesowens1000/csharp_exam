@@ -1,0 +1,98 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#title{
+    margin-top: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+}
+.pane{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+.paneR{
+    width: 50%;
+    margin-left: 75px;
+}
+.head{
+    margin-bottom: 20px;
+}
+.head h1{
+    display: inline-block;
+    width: 75%;
+}
+.head a{
+    display: inline-block;
+}
+.head a:last-of-type{
+    margin-left: 5%;
+}
+
+form{
+    width: 95%;
+}
+form:first-child{
+    margin-right: 100px;
+}
+form h2{
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+.row label{
+    height: 25px;
+    width: 175px;
+    margin-top: 10px;
+}
+.row span{
+    color: red;
+    margin-left: 100px;
+}
+.row input[type="text"], input[type="password"]{
+    width: 200px;
+}
+.row textarea{
+    resize: none;
+    height: 100px;
+    width: 250px;
+}
+.row input[type="submit"]{
+    width: 125px;
+    margin-top: 25px;
+    margin-left: 25%;
+}
+button{
+    margin-left: 90%;
+}
+.btn{
+    color: black;
+    padding: 0;
+}
+
+.infoHead{
+    margin-bottom: 25px;
+}
+.info{
+    margin-left: 40px;
+}
+.info h3:first-child{
+    margin-bottom: 35px;
+}
+.info p{
+    margin-left: 40px;
+    margin-bottom: 45px;
+}
