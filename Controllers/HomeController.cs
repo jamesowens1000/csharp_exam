@@ -44,7 +44,7 @@ namespace CSharpExam.Controllers
                     dbContext.Add(regUser);
                     dbContext.SaveChanges();
                     User currUser = dbContext.Users.FirstOrDefault(u => u.Email == regUser.Email);
-                    HttpContext.Session.SetInt32("userId", regUser.UserId);
+                    HttpContext.Session.SetInt32("userId", currUser.UserId);
                     return RedirectToAction("Home");
                 }
             }
